@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C657195D1B193467009B9992 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C657195C1B193467009B9992 /* main.m */; };
+		C65719601B193467009B9992 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C657195F1B193467009B9992 /* AppDelegate.m */; };
+		C65719631B193467009B9992 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C65719621B193467009B9992 /* ViewController.m */; };
+		C65719661B193467009B9992 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C65719641B193467009B9992 /* Main.storyboard */; };
+		C65719681B193467009B9992 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C65719671B193467009B9992 /* Images.xcassets */; };
+		C657196B1B193467009B9992 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C65719691B193467009B9992 /* LaunchScreen.xib */; };
+		C65719771B193467009B9992 /* VWWMotionInterpolationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C65719761B193467009B9992 /* VWWMotionInterpolationTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C65719711B193467009B9992 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C657194F1B193467009B9992 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C65719561B193467009B9992;
+			remoteInfo = VWWMotionInterpolation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C65719571B193467009B9992 /* VWWMotionInterpolation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VWWMotionInterpolation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C657195B1B193467009B9992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C657195C1B193467009B9992 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C657195E1B193467009B9992 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C657195F1B193467009B9992 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C65719611B193467009B9992 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C65719621B193467009B9992 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C65719651B193467009B9992 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C65719671B193467009B9992 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C657196A1B193467009B9992 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C65719701B193467009B9992 /* VWWMotionInterpolationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VWWMotionInterpolationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C65719751B193467009B9992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C65719761B193467009B9992 /* VWWMotionInterpolationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWWMotionInterpolationTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C65719541B193467009B9992 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C657196D1B193467009B9992 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C657194E1B193467009B9992 = {
+			isa = PBXGroup;
+			children = (
+				C65719591B193467009B9992 /* VWWMotionInterpolation */,
+				C65719731B193467009B9992 /* VWWMotionInterpolationTests */,
+				C65719581B193467009B9992 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C65719581B193467009B9992 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C65719571B193467009B9992 /* VWWMotionInterpolation.app */,
+				C65719701B193467009B9992 /* VWWMotionInterpolationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C65719591B193467009B9992 /* VWWMotionInterpolation */ = {
+			isa = PBXGroup;
+			children = (
+				C657195E1B193467009B9992 /* AppDelegate.h */,
+				C657195F1B193467009B9992 /* AppDelegate.m */,
+				C65719611B193467009B9992 /* ViewController.h */,
+				C65719621B193467009B9992 /* ViewController.m */,
+				C65719641B193467009B9992 /* Main.storyboard */,
+				C65719671B193467009B9992 /* Images.xcassets */,
+				C65719691B193467009B9992 /* LaunchScreen.xib */,
+				C657195A1B193467009B9992 /* Supporting Files */,
+			);
+			path = VWWMotionInterpolation;
+			sourceTree = "<group>";
+		};
+		C657195A1B193467009B9992 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C657195B1B193467009B9992 /* Info.plist */,
+				C657195C1B193467009B9992 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C65719731B193467009B9992 /* VWWMotionInterpolationTests */ = {
+			isa = PBXGroup;
+			children = (
+				C65719761B193467009B9992 /* VWWMotionInterpolationTests.m */,
+				C65719741B193467009B9992 /* Supporting Files */,
+			);
+			path = VWWMotionInterpolationTests;
+			sourceTree = "<group>";
+		};
+		C65719741B193467009B9992 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C65719751B193467009B9992 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C65719561B193467009B9992 /* VWWMotionInterpolation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C657197A1B193467009B9992 /* Build configuration list for PBXNativeTarget "VWWMotionInterpolation" */;
+			buildPhases = (
+				C65719531B193467009B9992 /* Sources */,
+				C65719541B193467009B9992 /* Frameworks */,
+				C65719551B193467009B9992 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VWWMotionInterpolation;
+			productName = VWWMotionInterpolation;
+			productReference = C65719571B193467009B9992 /* VWWMotionInterpolation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C657196F1B193467009B9992 /* VWWMotionInterpolationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C657197D1B193467009B9992 /* Build configuration list for PBXNativeTarget "VWWMotionInterpolationTests" */;
+			buildPhases = (
+				C657196C1B193467009B9992 /* Sources */,
+				C657196D1B193467009B9992 /* Frameworks */,
+				C657196E1B193467009B9992 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C65719721B193467009B9992 /* PBXTargetDependency */,
+			);
+			name = VWWMotionInterpolationTests;
+			productName = VWWMotionInterpolationTests;
+			productReference = C65719701B193467009B9992 /* VWWMotionInterpolationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C657194F1B193467009B9992 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Zakk Hoyt";
+				TargetAttributes = {
+					C65719561B193467009B9992 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					C657196F1B193467009B9992 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = C65719561B193467009B9992;
+					};
+				};
+			};
+			buildConfigurationList = C65719521B193467009B9992 /* Build configuration list for PBXProject "VWWMotionInterpolation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C657194E1B193467009B9992;
+			productRefGroup = C65719581B193467009B9992 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C65719561B193467009B9992 /* VWWMotionInterpolation */,
+				C657196F1B193467009B9992 /* VWWMotionInterpolationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C65719551B193467009B9992 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65719661B193467009B9992 /* Main.storyboard in Resources */,
+				C657196B1B193467009B9992 /* LaunchScreen.xib in Resources */,
+				C65719681B193467009B9992 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C657196E1B193467009B9992 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C65719531B193467009B9992 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65719631B193467009B9992 /* ViewController.m in Sources */,
+				C65719601B193467009B9992 /* AppDelegate.m in Sources */,
+				C657195D1B193467009B9992 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C657196C1B193467009B9992 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65719771B193467009B9992 /* VWWMotionInterpolationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C65719721B193467009B9992 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C65719561B193467009B9992 /* VWWMotionInterpolation */;
+			targetProxy = C65719711B193467009B9992 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C65719641B193467009B9992 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C65719651B193467009B9992 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C65719691B193467009B9992 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C657196A1B193467009B9992 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C65719781B193467009B9992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C65719791B193467009B9992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C657197B1B193467009B9992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VWWMotionInterpolation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C657197C1B193467009B9992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VWWMotionInterpolation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C657197E1B193467009B9992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VWWMotionInterpolationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VWWMotionInterpolation.app/VWWMotionInterpolation";
+			};
+			name = Debug;
+		};
+		C657197F1B193467009B9992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VWWMotionInterpolationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VWWMotionInterpolation.app/VWWMotionInterpolation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C65719521B193467009B9992 /* Build configuration list for PBXProject "VWWMotionInterpolation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C65719781B193467009B9992 /* Debug */,
+				C65719791B193467009B9992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C657197A1B193467009B9992 /* Build configuration list for PBXNativeTarget "VWWMotionInterpolation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C657197B1B193467009B9992 /* Debug */,
+				C657197C1B193467009B9992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C657197D1B193467009B9992 /* Build configuration list for PBXNativeTarget "VWWMotionInterpolationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C657197E1B193467009B9992 /* Debug */,
+				C657197F1B193467009B9992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C657194F1B193467009B9992 /* Project object */;
+}
