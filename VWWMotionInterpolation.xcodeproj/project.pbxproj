@@ -418,6 +418,7 @@
 				C657197C1B193467009B9992 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C657197D1B193467009B9992 /* Build configuration list for PBXNativeTarget "VWWMotionInterpolationTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +427,7 @@
 				C657197F1B193467009B9992 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
